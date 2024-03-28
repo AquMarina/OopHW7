@@ -5,7 +5,8 @@ public class Calculator {
         this.operation = operation;
     }
 
-    public ComplexNumber calculate(ComplexNumber a, ComplexNumber b) {
+    public NumberComplex calculate(NumberComplex a, NumberComplex b) {
+        return operation.operate(a, b);
     }
 
 }
